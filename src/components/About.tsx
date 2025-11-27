@@ -20,7 +20,7 @@ const About: React.FC = () => {
                 <img
                   src="/logo.png"
                   alt="Route07 IT"
-                  className="w-full max-w-md mx-auto mb-8"
+                  className="w-full max-w-md mx-auto mb-8 brightness-0 invert"
                 />
 
                 {/* Tech stats */}

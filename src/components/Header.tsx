@@ -44,7 +44,11 @@ const Header: React.FC = () => {
               onClick={() => scrollToSection('hero')}
               className="flex items-center space-x-2 group"
             >
-              <img src="/logo.png" alt="Route07 IT" className="h-8 w-auto" />
+              <img 
+                src="/logo.png" 
+                alt="Route07 IT" 
+                className="h-8 w-auto brightness-0 invert" 
+              />
               <span className="font-display font-bold text-xl text-white group-hover:text-primary-400 transition-colors">
                 Route07 <span className="text-primary-500">IT</span>
               </span>
